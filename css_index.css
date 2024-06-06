@@ -1,0 +1,159 @@
+body {
+	background: #6495ED;
+}
+
+#ancho_pagina {
+	width: 70%;
+	margin: auto;
+}
+
+#imagen_titulo
+{
+	position: relative;
+    margin-top: 30px;
+    height: 380px;
+    border-radius: 10px;
+    background: url('imagenes/bosque.jpg');
+    box-shadow: 0px 4px 4px #00008B;
+    margin-bottom: 25px;
+}
+
+#nombre_titulo
+{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+    background-color: #4169E1;
+	opacity: .6;
+    color: white;
+    font-size: 70px;
+	text-align: center;
+}
+
+nav {
+	list-style-type: none;
+    border-radius: 10px;
+    border: #DA70D6;
+    border-style: solid;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 8px;
+	font-size: 19px;
+}
+
+nav a {
+	text-decoration: none;
+    color: black;
+    background-color: #DDA0DD;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 20px;
+}
+
+nav a:hover
+{
+    color: #9932CC;
+}
+
+section {
+	text-align:justify;
+	font-size: 19px;
+    font-family: sans-serif;
+	line-height : 30px;
+}
+
+.caja {
+	background-color: white;
+	border-radius: 20px;
+    padding: 18px;
+}
+
+h2 {
+	color:#6495ED;
+}
+
+#sobre_mi {
+	float: left;
+	width: 290px;
+	height: 290px;
+	margin-right: 20px;
+	box-shadow: 8px 8px 3px #B0C4DE;
+}
+
+#educacion {
+	float: right;
+	width: 290px;
+	height: 290px;
+	margin-left: 20px;
+	box-shadow: 8px 8px 3px #B0C4DE;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-spacing: 30px;
+}
+
+#foto_lectura, #foto_senderismo, #foto_scrapbooking {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+h3 {
+	font-family: Helvetica;
+}
+
+.aspecto_formulario {
+	width: 50%;
+	font-size: 17px;
+}
+
+form input, textarea {
+	background-color: #F0F8FF;
+	border: none;
+}
+
+#boton {
+	background-color: #6495ED;;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+  }
+  
+  #boton:hover {
+	  background-color: #00CED1;
+  }
+
+#detalles_contacto {
+	float: right;
+	width: 250px;
+	height: 200px;
+	border-radius:50%;
+    padding: 15px;
+    position: absolute;
+    right: 280px; 
+    top: 2330px; 
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#copyright {
+	text-align: center;
+	color: white;
+}
